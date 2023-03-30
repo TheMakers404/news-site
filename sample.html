@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Merriweather&family=Sacramento&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>sample</title>
+</head>
+<body>
+    <section id="top">
+        <div class="banner">
+            <div class="img1">
+                <h1>News Spot</h1>
+    
+                <ul>
+                    <li>
+                        <p ><a href="#top">home</a></p>
+                        <p ><a href="#middle">location</a></p>
+                        <p ><a href=".footer">about</a></p>
+                        <p ><a href="#">contact</a></p>
+    
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="name">
+                <h1>News <span class="text"> </span></h1>
+                <p>all past news records are available</p>
+                <div>
+                    <button type="button"><span> </span> Explore</button>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+    </section>
+    
+    <section id="middle"> 
+        <div class="body">
+            <h1>location</h1>
+            <p>get all type of news</p>
+        </div>
+    
+        <section class="mid">
+            <div class="news_type">
+                <div class="first_box">
+                    <img src="india gate.jpg" alt="img">
+                    <div class="overlay"> </div>
+                    <div class="box_text"> <h3>National</h3></div>
+                </div>
+                <div class="first_box">
+                    <img src="liberty.jpg" alt="img">
+                    <div class="overlay"> </div>
+                    <div class="box_text"> <h3>International</h3></div>
+                </div>
+                <div class="first_box">
+                    <img src="hd-wallpaper-g2d818bc87_1920.jpg" alt="img">
+                    <div class="overlay"> </div>
+                    <div class="box_text"> <h3>Entertainment</h3></div>
+                </div>
+                <div class="first_box">
+                    <img src="basketball.jpg" alt="img">
+                    <div class="overlay"> </div>
+                    <div class="box_text"> <h3>Sports</h3></div>
+                </div>
+            </div>
+        
+        </section>
+
+    </section>
+    
+
+    <div class="footer">
+        <h1>Thanku</h1>
+
+    </div>
+
+        
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+        var typed=new Typed(".text",{strings:[ "site","site","that","can","show","all news"],typeSpeed :100,backSpeed:100, loop: true })
+        var scroll = new SmoothScroll('a[href*="#"]', {speed: 500,speedAsDuration: true});
+    </script>
+
+</body>
+</html>
